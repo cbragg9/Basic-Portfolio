@@ -1,0 +1,28 @@
+/* Is this needed or default? */
+* {
+    box-sizing: border-box;
+}
+
+
+/* Requirement: Responsive at 640 = sm, 768 = md, 980 = lg */
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-top: 8px solid #4aaaa5;
+    padding: 5%;
+    background-color: #666666;
+    color: lightgray;
+    text-align: center;
+    font-size: 10px;
+}
