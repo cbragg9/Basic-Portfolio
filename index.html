@@ -11,36 +11,62 @@
     </head>
     <body>
 
-        <!-- Requirement: Responsive at 640 = sm, 768 = md, 980 = lg -->
+        <!-- Requirement: Responsive at 640 = sm, 768 = md, 980 = md -->
 
-        <header class="top-row">
+        <header class="top-row row">
+
+            <!-- Teal column with name -->
+            <div class="container box1 col-12 col-md-4 col-lg-2">
+                <p>Chris Bragg</p>
+            </div>
+            
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand navbar-light container col-12 col-md-4 col-lg-2 nav-box">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+              </nav>
 
         </header>
 
 
 
-        <main>
-            <div class="container main-box col-xs-12 col-sm-10 col-md-8 col-lg-6">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box2">
-                        About Me
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <img class="pic" src="assets/250x350.jpg" alt="Bill Murray">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
+        <!-- Container box for About Me -->
+        <div class="container main-box col-lg-6 col-md-8 col-12">
+
+            <!-- Top Row: About Me Header-->
+            <div class="row">
+                <div class="col-12 box2">
+                    <h2>About Me</h2>
                 </div>
             </div>
-        </main>
+
+            <!-- Bottom Row: Float left picture with text -->
+            <div class="row">
+
+                <div class="container">
+                    <img class="pic img-fluid rounded" src="assets/250x250.jpg" alt="Bill Murray">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+
+        </div>
 
 
 
 
-        <!-- Sticky Footer -->
+
+        <!-- Sticky Footer, but sits on top of main box if screen is too small -->
         <footer class="footer">
             Copyright ©
         </footer>

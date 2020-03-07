@@ -16,10 +16,25 @@ body {
 }
 
 .top-row {
-    position: relative;
     height: 80px;
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
+}
+
+.box1 {
+    height: 100%;
+    padding: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.nav-box {
+    background-color: white;
+    text-align: center;
 }
 
 .main-box {
@@ -29,19 +44,20 @@ body {
 }
 
 .box2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    font-weight: bold;
-    color: #4aaaa5;
     max-width: 90%;
     border-bottom: 3px solid lightgray;
     margin: 0 5%;
     padding-top: 5%;
 }
 
+.box2 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+
 .pic {
     float: left;
-    border-radius: 8px;
     margin: 5%;
 }
 
