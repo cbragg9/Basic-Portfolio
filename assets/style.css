@@ -12,15 +12,46 @@ html {
 
 body {
     min-height: 100%;
-    display: grid;
-    grid-template-rows: 1fr auto;
+    background-image: url("webb.png");
+}
+
+.top-row {
+    position: relative;
+    height: 80px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+
+.main-box {
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    margin-top: 3%;
+}
+
+.box2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #4aaaa5;
+    max-width: 90%;
+    border-bottom: 3px solid lightgray;
+    margin: 0 5%;
+    padding-top: 5%;
+}
+
+.pic {
+    float: left;
+    border-radius: 8px;
+    margin: 5%;
 }
 
 .footer {
-    grid-row-start: 2;
-    grid-row-end: 3;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     border-top: 8px solid #4aaaa5;
-    padding: 5%;
+    padding: 1%;
     background-color: #666666;
     color: lightgray;
     text-align: center;
