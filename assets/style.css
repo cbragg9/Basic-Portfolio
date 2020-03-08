@@ -4,7 +4,7 @@
 }
 
 
-/* Requirement: Responsive at 640 = sm, 768 = md, 980 = lg */
+/* Requirement: Responsive at 640 = sm, 768 = md, 980 = md */
 
 html {
     height: 100%;
@@ -72,4 +72,24 @@ body {
     color: lightgray;
     text-align: center;
     font-size: 10px;
+}
+
+.button {
+    margin-bottom: 10px;
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
+.pic-img {
+    position: relative;
+}
+
+.pic-block {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 3px;
 }
