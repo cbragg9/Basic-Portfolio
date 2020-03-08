@@ -1,0 +1,96 @@
+body {
+    background-image: url(../images/concrete.png);
+    padding-bottom: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.header {
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+}
+
+.name-box {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 50px;
+}
+
+.name-box h3 {
+    line-height: 50px;
+    vertical-align: center;
+}
+
+.nav-box {
+    text-align: center;
+    height: 50px;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.content {
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+
+.content-header p {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-bottom: 2px solid lightgray;
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.about-pic {
+    float: left;
+    padding-left: 0px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #666666;
+    color: lightgray;
+    border-top: 8px solid #4aaaa5;
+    display: block;
+    float: none;
+    text-align: center;
+    font-size: 10px;
+    height: 50px;
+}
+
+.button {
+    margin-bottom: 10px;
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+}
+
+.pic-img {
+    width: 250px;
+    position: relative;
+}
+
+.pic-block {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

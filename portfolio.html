@@ -1,119 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About Chris</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>Practice</title>
+  </head>
 
-    </head>
-    <body>
+  <body>
 
-        <!-- Requirement: Responsive at 640 = sm, 768 = md, 980 = md -->
+    <!-- Header with one row and two columns (name-box and navbar) -->
+    <header class="container header col-12">
 
-        <header class="top-row row">
+      <!-- One row -->
+      <div class="row justify-content-around">
 
-            <!-- Teal column with name -->
-            <div class="container box1 col-12 col-md-4 col-lg-2">
-                <p>Chris Bragg</p>
-            </div>
-            
-            <!-- Navbar -->
-            <nav class="navbar navbar-expand navbar-light container col-12 col-md-4 col-lg-2 nav-box">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-              </nav>
+        <!-- Column 1: name-box -->
+        <div class="name-box col-12 col-md-3 offset-md-1">
+          <h3>Chris Bragg</h1>
+        </div>
 
-        </header>
+        <!-- Column 2: Navbar -->
+        <nav class="navbar navbar-expand navbar-light col-12 col-md-4 right nav-box">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+        </nav>
+
+      </div>
+
+    </header>
 
 
+    <!-- Main container -->
+    <div class="container content col-11 col-md-7 offset-md-1 mt-3">
 
+      <!-- Container with two rows and one column -->
+      <div class="container pt-3 pb-1 cont1">
 
-        <!-- Container box for Portfolio -->
-        <div class="container main-box col-lg-6 col-md-8 col-12">
+        <!-- Div 1: About Me header with bottom border -->
+        <div class="content-header">
+          <p>Portfolio</p>
+        </div>
 
-            <!-- Top Row: Portfolio Header with bottom border-->
-            <div class="row">
-                <div class="col-12 box2">
-                    <h2>Portfolio</h2>
+        <!-- Div 2: Content -->
+        <div>
+
+            <div class="pic-img">
+                <img class="rounded mb-3" src="assets/images/250x250.jpg" alt="Word Guess">
+                <div class="pic-block">
+                    <p>Word Guess</p>
                 </div>
             </div>
 
-            <!-- Bottom Row: Word Guess/RPG Game -->
-            <div class="row mt-3">
-
-                <div class="col-12 col-md-6">
-                    <img class="portfolio-pic img-fluid rounded mb-3" src="assets/250x250b.jpg" alt="Word Guess">
-                    <div class="pic-block">
-                        <p>Word Guess</p>
-                    </div>
-
-                </div>
-
-                <div class="pic-img col-12 col-md-6">
-                    <img class="img-fluid rounded mb-3" src="assets/250x250b.jpg" alt="Word Guess">
-                    <div class="pic-block">
-                        <p>RPG Game</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Bottom Row: Trivia Game/Info Widget -->
-            <div class="row">
-
-                <div class="col-12 col-md-6">
-                    <img class="portfolio-pic img-fluid rounded mb-3" src="assets/250x250b.jpg" alt="Word Guess">
-                    <div class="pic-block">
-                        <p>Trivia Game</p>
-                    </div>
-
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <img class="portfolio-pic img-fluid rounded mb-3" src="assets/250x250b.jpg" alt="Word Guess">
-                    <div class="pic-block">
-                        <p>Info Widget</p>
-                    </div>
-                </div>
-
-            </div>            
-            
-            <!-- Bottom Row: Rock Paper Scissors -->
-            <div class="row">
-
-                <div class="col-12 col-md-6">
-                    <img class="portfolio-pic img-fluid rounded mb-3" src="assets/250x250b.jpg" alt="Word Guess">
-                    <div class="pic-block">
-                        <p>Rock Paper Scissors</p>
-                    </div>
+            <div class="pic-img">
+                <img class="rounded mb-3" src="assets/images/250x250.jpg" alt="Word Guess">
+                <div class="pic-block">
+                    <p>RPG Game</p>
                 </div>
             </div>
+
+            <div class="pic-img">
+                <img class="rounded mb-3" src="assets/images/250x250.jpg" alt="Word Guess">
+                <div class="pic-block">
+                    <p>Trivia Game</p>
+                </div>
+            </div>
+
+            <div class="pic-img">
+                <img class="rounded mb-3" src="assets/images/250x250.jpg" alt="Word Guess">
+                <div class="pic-block">
+                    <p>Info Widget</p>
+                </div>
+            </div>
+
+            <div class="pic-img">
+                <img class="rounded mb-3" src="assets/images/250x250.jpg" alt="Word Guess">
+                <div class="pic-block">
+                    <p>Rock Paper Scissors</p>
+                </div>
+            </div>
+
+
+
 
         </div>
 
+    </div>
 
 
+    <!-- Bootstrap Navbar footer -->
+    <div class="navbar fixed-bottom footer">
+      <p>Copyright ©</p>
+    </div>
 
 
-        <!-- Sticky Footer, but sits on top of main box if screen is too small -->
-        <footer class="footer">
-            Copyright ©
-        </footer>
-
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
+  </body>
 </html>
