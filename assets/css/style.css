@@ -80,17 +80,20 @@ body {
 }
 
 .pic-img {
-    width: 250px;
     position: relative;
 }
 
 .pic-block {
-    position: absolute;
-    bottom: 10%;
+    position: relative;
+    bottom: 20%;
     width: 100%;
     text-align: center;
     background-color: #4aaaa5;
     color: white;
     padding-top: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.portfolio-container {
+    text-align: center;
 }
